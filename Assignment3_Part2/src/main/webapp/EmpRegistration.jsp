@@ -117,14 +117,7 @@ function formvalidation()
 		<li><a href="EmpRegistration.jsp"> Employer Registration </a></li>
 		<li><a href="Employer.jsp"> Employer </a></li>
 		<li><a href="feedback.jsp"> Feedback </a></li>
-		<?php session_start(); ?>
-		<?php if (!isset($_SESSION['id']) ): ?>
-		<li style="float:right"><a href="index.jsp"> Login </a></li>
-		<?php else: ?>
-		<?php echo "<script type='text/javascript'>alert('Please logout to register!');</script>";
-			  echo "<script type='text/javascript'>location.href='Navigation.php'</script>"; ?>
-		<?php endif; ?>		
-	</ul>
+
 <p class="p1">	<img src="onlinejobsearch.jpg" > <br/> </p>
 
 <div class="empreg"> <form method="post">

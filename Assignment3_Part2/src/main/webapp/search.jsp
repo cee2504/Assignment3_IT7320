@@ -71,12 +71,7 @@ function formvalidation()
 		<li><a href="EmpRegistration.jsp"> Employer Registration </a></li>
 		<li><a href="Employer.jsp"> Employer </a></li>
 		<li><a href="feedback.jsp"> Feedback </a></li>
-		<?php session_start(); ?>
-		<?php if (!isset($_SESSION['id']) ): ?>
-		<li style="float:right"><a href="indext.jsp"> Login </a></li>
-		<?php else: ?>
-		<li style="float:right"><a href="logout.jsp"> Logout </a></li>
-		<?php endif; ?>		
+	
 	</ul>
 <p class="p1">	<img src="onlinejobsearch.jpg" > <br/> </p>
 <div class="search"> <form method="get" onsubmit="return formvalidation(); ">
