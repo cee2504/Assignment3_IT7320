@@ -14,9 +14,6 @@ public class MainCalc {
 		double amountNum;
 		double percentNum;
 		
-		
-		
-		
 		MainCalc obj = new MainCalc();
 
 		obj.start();
