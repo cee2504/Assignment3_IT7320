@@ -12,7 +12,6 @@ public class Employee {
 		this.fortnightSalary = fortnightSalary;
 		this.computeKiwiSaver = computeKiwiSaver;
 	}
-
 	
 	public int getWeeklySalary() {
 		return weeklySalary;
