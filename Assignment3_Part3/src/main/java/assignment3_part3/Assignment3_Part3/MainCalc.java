@@ -32,7 +32,8 @@ public class MainCalc {
 				obj.start();
 				choice = in.nextInt();
 				
-			} else if ((choice == 2) ) {
+			} 
+			else if ((choice == 2) ) {
 				System.out.println("Enter the first number: ");
 				num1 = in.nextInt();
 				System.out.println("Enter the second number: ");
@@ -42,7 +43,8 @@ public class MainCalc {
 				obj.start();
 				choice = in.nextInt();
 				
-			} else if ((choice == 3)) {
+			} 
+			else if ((choice == 3)) {
 				System.out.println("Enter the first number: ");
 				num1 = in.nextInt();
 				System.out.println("Enter the second number: ");
@@ -52,7 +54,8 @@ public class MainCalc {
 				obj.start();
 				choice = in.nextInt();
 				
-			} else if ((choice == 4) ) {
+			}
+			else if ((choice == 4) ) {
 				System.out.println("Enter the first number: ");
 				num1 = in.nextInt();
 				System.out.println("Enter the second number: ");
@@ -62,7 +65,6 @@ public class MainCalc {
 				obj.start();
 				choice = in.nextInt();
 			}
-
 			else if ((choice == 5) ) {
 				System.out.println("Enter degree in radian: ");
 				degree = in.nextDouble();
@@ -70,7 +72,8 @@ public class MainCalc {
 				obj.start();
 				choice = in.nextInt();
 				
-			} else if ((choice == 6) ) {
+			} 
+			else if ((choice == 6) ) {
 				System.out.println("Enter degree in radian: ");
 				degree = in.nextDouble();
 				System.out.println("Cosine is: " + obj.cos(degree));
@@ -85,9 +88,7 @@ public class MainCalc {
 		System.out.print("Goodbye!");
 
 	}
-
 	
-
 	public void start() {
 		System.out.println("Basic Calculator");
 		System.out.println("[1] - Addition\n[2] - Substraction\n[3] - Multiplication\n[4] - Division\n");
