@@ -13,6 +13,7 @@ public class MainCalc {
 		double degree;
 		double amountNum;
 		double percentNum;
+		
 		MainCalc obj = new MainCalc();
 
 		obj.start();
